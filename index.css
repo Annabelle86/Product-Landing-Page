@@ -1,0 +1,85 @@
+html, body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #ffd166ff;
+    height: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+/* CSS HEX 
+--paradise-pink: #ef476fff;
+--orange-yellow-crayola: #ffd166ff;
+--caribbean-green: #06d6a0ff;
+--blue-ncs: #118ab2ff;
+--midnight-green-eagle-green: #073b4cff;
+*/
+
+h2 {
+  font-size: 100px;
+  color:#118ab2ff;
+  text-align: center;
+  margin: auto 0;
+}
+
+#description {
+  color: #06d6a0ff;
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  color: #06d6a0ff;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*@media only screen and (max-width: 600px) {
+    body {
+      background-color:#ffd166ff;
+    }
+}*/
+  
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; 
+  top: 0;
+  width: 100%; 
+}
+  
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+  
+main {
+  margin-top: 30px; 
+}
+
+#header-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+form, input {
+  text-align: center;
+  display: inline-block;
+  padding: auto;
+}
+
+footer {
+  color:#ef476fff;
+  text-align: center;
+}
+
